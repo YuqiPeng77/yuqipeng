@@ -33,6 +33,11 @@ layout: default
         {% if page.modified %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% endif %}
+          {% if page.author %}
+            <p class="page__authors" style="margin-top: -10px;">
+              {{ page.author }}
+            </p>
+          {% endif %}
       
         {% if page.venue %}
           <p><i>{{ page.venue }}</i></p>
@@ -56,28 +61,32 @@ layout: default
         {% assign has_video = page.videourl %}
         
         <p style="font-size: smaller">
-          {% if page.author %}
-            {{ page.author }}<br />
-          {% endif %}
-        
-          {% if has_pdf %}
-            <a href="{{ page.paperurl }}" style="margin-right: 8px;">PDF</a>
-          {% endif %}
-        
-          {% if has_code %}
-            {% if has_pdf %} | {% endif %}
-            <a href="{{ page.codeurl }}" style="margin-right: 8px;">Code</a>
-          {% endif %}
-        
-          {% if has_slides %}
-            {% if has_pdf or has_code %} | {% endif %}
-            <a href="{{ page.slidesurl }}" style="margin-right: 8px;">Slides</a>
-          {% endif %}
-        
-          {% if has_video %}
-            {% if has_pdf or has_code or has_slides %} | {% endif %}
-            <a href="{{ page.videourl }}" style="margin-right: 8px;">Video</a>
-          {% endif %}
+          
+          {%- if has_pdf -%}
+            <a href="{{ page.paperurl }}">PDF</a>
+          {%- endif -%}
+          
+          {%- if has_code -%}
+            {%- if has_pdf -%}
+              <span style="padding: 0 8px;">|</span>
+            {%- endif -%}
+            <a href="{{ page.codeurl }}">Code</a>
+          {%- endif -%}
+          
+          {%- if has_slides -%}
+            {%- if has_pdf or has_code -%}
+              <span style="padding: 0 8px;">|</span>
+            {%- endif -%}
+            <a href="{{ page.slidesurl }}">Slides</a>
+          {%- endif -%}
+          
+          {%- if has_video -%}
+            {%- if has_pdf or has_code or has_slides -%}
+              <span style="padding: 0 8px;">|</span>
+            {%- endif -%}
+            <a href="{{ page.videourl }}">Video</a>
+          {%- endif -%}
+
         </p>
 
 
