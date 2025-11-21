@@ -3,7 +3,7 @@ title: "TARA: Token-Aware LoRA for Composable Personalization in Diffusion Model
 collection: publications
 category: conferences
 permalink: /publication/TARA
-excerpt: 'A token-aware approach enabling composable personalization for diffusion models.'
+excerpt: 
 date: 2025-8-12
 venue: 'AAAI 2026'
 paperurl: 'https://arxiv.org/abs/2508.08812'
