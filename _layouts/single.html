@@ -58,22 +58,22 @@ layout: default
           {% endif %}
         
           {%- if has_pdf -%}
-            <a href="{{ page.paperurl }}">PDF</a>
+            <a href="{{ page.paperurl }}" style="margin-right: 8px;">PDF</a>
           {%- endif -%}
         
           {%- if has_code -%}
             {%- if has_pdf -%} | {% endif -%}
-            <a href="{{ page.codeurl }}">Code</a>
+            <a href="{{ page.codeurl }}" style="margin-right: 8px;">Code</a>
           {%- endif -%}
         
           {%- if has_slides -%}
             {%- if has_pdf or has_code -%} | {% endif -%}
-            <a href="{{ page.slidesurl }}">Slides</a>
+            <a href="{{ page.slidesurl }}" style="margin-right: 8px;">Slides</a>
           {%- endif -%}
         
           {%- if has_video -%}
             {%- if has_pdf or has_code or has_slides -%} | {% endif -%}
-            <a href="{{ page.videourl }}">Video</a>
+            <a href="{{ page.videourl }}" style="margin-right: 8px;">Video</a>
           {%- endif -%}
         </p>
 
