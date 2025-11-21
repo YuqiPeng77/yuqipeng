@@ -1,7 +1,7 @@
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Your Name / Site Title"
+site_theme               : "air" # Currently available options are "default", "air"
+title                    : "Yuqi Peng / Homepage"
 title_separator          : "-"
 name                     : &name "Yuqi Peng"
 description              : &description "Yuqi's Homepage"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -71,10 +71,10 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  # books:
-  #   title: 'Books'
-  # manuscripts:
-  #   title: 'Journal Articles'    
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
 
