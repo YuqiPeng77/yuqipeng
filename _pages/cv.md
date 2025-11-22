@@ -11,8 +11,12 @@ redirect_from:
 
 Education
 ======
-* M.S. in Computer Science, Northeastern University, GPA: 4.0 / 4.0, Sep. 2023 - Apr. 2026 (expected)
-* B.S. in Mathematics, University of Colorado at Denver, GPA: 3.5 / 4.0, Sep. 2019 - May 2024
+* **Northeastern University**, Sep. 2023 - Apr. 2026 (expected)
+  * M.S. in Computer Science
+  * GPA: 4.0 / 4.0
+* **University of Colorado at Denver**, Sep. 2019 - May 2024
+  * B.S. in Mathematics & B.A. in Economics
+  * GPA: 3.5 / 4.0
 
 Research Interests
 ======
@@ -63,10 +67,9 @@ Work Experience
 
 Publications
 ======
-<ul>
-<li>Y. Peng, P. Wang, J. Liu, S. Chen. <strong>"GLAD: Generalizable Tuning for Vision-Language Models."</strong> ICCV Workshops, 2025. [PDF]</li>
-<li>Y. Peng, L. Zheng, Y. Yang, Y. Huang, M. Yan, J. Liu, S. Chen. <strong>"TARA: Token-Aware LoRA for Composable Personalization in Diffusion Models."</strong> 2025. (Submitted to AAAI) [PDF]</li>
-</ul>
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
 
 Honors & Awards
 ======
@@ -80,10 +83,6 @@ Technical Skills
 * **Deep Learning Frameworks:** PyTorch
   
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
   
 
