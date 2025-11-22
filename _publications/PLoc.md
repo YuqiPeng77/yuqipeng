@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/PLoc
 excerpt: 
-date: 2024-3-26
+date: 2026-3-26
 venue: 'ICICIP 2024'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10477836'
 codeurl: 'https://github.com/RuiningYang/ApolloScape-R'
