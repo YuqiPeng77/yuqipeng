@@ -9,6 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
+<p>
+📄 <strong>PDF version available here:</strong> 
+<a href="/files/Yuqi_Peng_CV.pdf" target="_blank">Yuqi Peng's CV</a>
+</p>
+
 Education
 ======
 * **Northeastern University**, Sep. 2023 - Apr. 2026 (expected)
