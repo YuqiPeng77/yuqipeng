@@ -9,10 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-<p>
-📄 <strong>PDF version available here:</strong> 
-<a href="/files/Yuqi_Peng_CV.pdf" target="_blank">Yuqi Peng's CV</a>
-</p>
+You can also access the PDF version here: [Yuqi Peng's CV](/files/Yuqi_Peng_CV.pdf)
+*Latest update: November, 2025*
 
 Education
 ======
