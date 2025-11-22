@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can also access the PDF version here: [Yuqi Peng's CV](/files/Yuqi_Peng_CV.pdf)
+You can also access the PDF version here: [Yuqi Peng's CV](/files/Yuqi_Peng_CV.pdf)   
 *Latest update: November, 2025*
 
 Education
