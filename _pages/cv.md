@@ -27,7 +27,7 @@ Diffusion Models, Vision-Language Models, Model Generalization, Parameter-Effici
 
 Research Experience
 ======
-## MMLAB @ Shenzhen Institutes of Anvanced Technology (SIAT), Shenzhen - Research Assistant
+### MMLAB @ Shenzhen Institutes of Anvanced Technology (SIAT), Shenzhen - Research Assistant
 *Nov. 2024 – Aug. 2025*
 
 **Generalizable VLM Fine-tuning Methods**
@@ -61,7 +61,7 @@ Course Projects
 
 Work Experience
 ======
-## MIIVII Technology, Beijing — Research Intern  
+### MIIVII Technology, Beijing — Research Intern  
 *May 2024 – Sept. 2024*
 * Annotated 3D point cloud motion data aligned with RGB video.
 * Investigated NeRF-based mesh extraction and evaluated performance on internal datasets.
