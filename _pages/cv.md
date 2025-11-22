@@ -27,10 +27,10 @@ Diffusion Models, Vision-Language Models, Model Generalization, Parameter-Effici
 
 Research Experience
 ======
-### MMLAB @ Shenzhen Institutes of Anvanced Technology (SIAT), Shenzhen - Research Assistant
+## MMLAB @ Shenzhen Institutes of Anvanced Technology (SIAT), Shenzhen - Research Assistant
 *Nov. 2024 – Aug. 2025*
 
-**Generalizable VLM Fine-tuning Methods**
+***Generalizable VLM Fine-tuning Methods***
 * Developed GLAD, a generalizable fine-tuning framework for vision-language models in few-shot settings.
 * Investigated limitations of CLIP prompt tuning and identified causes of overfitting.
 * Proposed a LoRA-based cross-modal fine-tuning strategy updating only a small portion of parameters.
@@ -40,7 +40,7 @@ Research Experience
 * Demonstrated that GLAD outperforms CoOp, CoCoOp, MaPLe, and PromptSRC.
 * Led the full project: conceptualization, method design, implementation, large-scale benchmarking, and writing.
 
-**Personalized Image Editing via Diffusion Models**
+***Personalized Image Editing via Diffusion Models***
 * Developed TARA, a framework enabling training-free multi-concept image generation with diffusion models.
 * Identified token interference and spatial misalignment as key issues in LoRA-based personalization.
 * Designed Token Focus Masking (TFM) to constrain each LoRA update to its associated rare token.
@@ -52,7 +52,7 @@ Research Experience
 
 Course Projects
 ======
-**Data-Efficient Subset Selection for Image Classification**
+***Data-Efficient Subset Selection for Image Classification***
 * Built a data-centric selection system using submodular optimization to choose diverse and informative samples.
 * Analyzed limits of dataset distillation and random subset selection.
 * Used ResNet-18 to extract features and guide iterative sample selection.
@@ -61,7 +61,7 @@ Course Projects
 
 Work Experience
 ======
-### MIIVII Technology, Beijing — Research Intern  
+## MIIVII Technology, Beijing — Research Intern  
 *May 2024 – Sept. 2024*
 * Annotated 3D point cloud motion data aligned with RGB video.
 * Investigated NeRF-based mesh extraction and evaluated performance on internal datasets.
